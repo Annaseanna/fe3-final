@@ -95,28 +95,37 @@ form{
 }
 
 table {
- border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-    display: table;
-    border: 1px solid #ccc;
-
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-
-.dark{
-  background-color: #12121296;
-  color: white;
-}
-.dark > a {
-  color: white;
-}
+  border-collapse: collapse;
+     border-spacing: 0;
+     width: 100%;
+     display: table;
+     border: 1px solid #ccc;
+ 
+ }
+ 
+ td, th {
+   border: 1px solid #dddddd;
+   text-align: left;
+   padding: 8px;
+ }
+ 
+ tr:nth-child(even) {
+   background-color: #dddddd;
+ }
+ 
+ #light{
+   background-color: white;
+ }
+ #dark{
+   background-color: #12121296;
+   color: white;
+ }
+ .dark a{
+   color: white;
+ }
+ .light{
+   background-color: #dddddd;
+ }
+ .dark{
+   background-color: rgb(174, 202, 202);
+ }

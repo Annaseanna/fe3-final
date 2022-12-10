@@ -38,5 +38,20 @@
   },
   "devDependencies": {
     "msw": "^0.47.3"
-  }
+  },
+  "description": "Examen Final de Frontend III",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annaseanna/fe3-final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Frontend-III/fe3-final/issues"
+  },
+  "homepage": "https://github.com/Frontend-III/fe3-final#readme"
 }
